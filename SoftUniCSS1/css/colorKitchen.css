@@ -1,0 +1,197 @@
+body{
+	background-image: ;
+	background: url("../images/colorful_dots_on_black.jpg") repeat;
+	display: inline;
+	font-family: Arial;
+	margin: 0px;
+}
+body header {
+	font-size: 36pt;
+	margin: 0px;
+	text-align: center;
+	padding: 10px;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+	color: yellow;
+	background-color: green;
+}
+body header:before{/*Jesus christ how horrifying*/
+	content: "31";
+	width: 33%; 
+	height: 97px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: #FF0000;
+	background-color: #ff0000;
+}
+
+body header:after{/*Jesus christ how horrifying*/
+	content: "31";
+	width: 34%;
+	height: 97px;
+	position: absolute;
+	top: 0px;
+	left: 66%;
+	color: #0000FF;
+	background-color: #0000FF;
+}
+section{
+	width: 80%;
+}
+aside{
+	margin-right: 15px;
+	margin: 10px;
+	margin-top: 0px;
+	border-radius: 12px;
+	width: 18%;
+	background-color: rgba(255,255,255, 0.9);
+}
+body nav {
+	padding: 10px;
+}
+ul li:nth-child(1):hover{
+	background-color: red;
+	border-radius: 10px;
+	color: #ffffff;
+}
+
+ul li:nth-child(2):hover{
+	background-color: orange;
+	border-radius: 10px;
+}
+
+ul li:nth-child(3):hover{
+	background-color: yellow;
+	border-radius: 10px;
+}
+
+ul li:nth-child(4):hover{
+	background-color: green;
+	border-radius: 10px;
+	color: #ffffff;
+}
+
+ul li:nth-child(5):hover{
+	background-color: blue;
+	border-radius: 10px;
+	color: #ffffff;
+}
+
+ul li:nth-child(6):hover{
+	background-color: purple;
+	border-radius: 10px;
+	color: #ffffff;
+}
+aside header{
+	margin-bottom: 0px;
+	font-size: 14pt;
+	background-color: inherit;
+	color: inherit;
+	text-align: inherit;
+	text-decoration: underline;
+	padding: 5px;
+
+}
+aside ul {
+	margin: 0px;
+	padding: 5px;
+}
+aside ul li::before{
+	content: url('http://beemobile4.net/wp-content/themes/beemobile/images/products/icon-feature.png') no-repeat 0 0;
+	position: relative;
+	left: -5px;
+	top: 9px;
+}
+aside ul li{
+	margin: 5px;
+	padding: 5px;
+
+	padding-left: 15px;
+
+  list-style: none;
+
+}
+section, aside{
+	float:left;
+}
+article{
+	background-color: rgba(255,255,255, 0.9);
+	margin: 5px;
+	margin-top: 0px ;
+	border-radius: 12px;
+	padding: 3px;
+}
+article{
+
+	padding: 15px;
+	margin: 20px;
+	margin-top: 0px;
+}
+article a{
+	text-decoration: underline;
+	font-style: italic;
+	color: #999999;
+}
+article div::first-letter{
+	text-transform: uppercase;
+	font-size: 36pt;
+	font-style: italic;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+	font-style: bold;
+}
+aside ul li a: hover{
+	background-color: red;
+}
+section article header{
+	padding-bottom: 0px;
+	padding: 10px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	border-radius: 5px
+}
+#webColors{
+	font-size: 18pt;
+	text-align: inherit;
+	background-color: red;
+
+	color: #FFFFFF;
+}
+#webSafeColors{
+	font-size: 18pt;
+	text-align: inherit;
+	color: inherit;
+	background-color: orange;
+}
+#RGB{
+	font-size: 18pt;
+	text-align: inherit;
+	color: inherit;
+	background-color: yellow;
+}
+#RGBA{
+	font-size: 18pt;
+	text-align: inherit;
+	background-color: green;
+	color: #FFFFFF;
+}
+#\#HSLHSV{
+	font-size: 18pt;
+	text-align: inherit;
+
+	background-color: blue;
+	color: #FFFFFF;
+}
+#\#lorem{
+	font-size: 18pt;
+	text-align: inherit;
+	background-color: purple;
+	color: #FFFFFF;
+}
+ul li #webColors:hover{
+	background-color: red;
+	;
+};

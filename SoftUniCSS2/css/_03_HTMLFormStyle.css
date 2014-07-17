@@ -1,0 +1,63 @@
+
+        form{
+        	background-image: url("../images/formBackground.jpg");
+        	width: 400px;
+        	border-radius: 5px;
+        }
+        section div{
+        	background-color: rgba(255,255,255 , 0.4);
+        	border: 1px solid white;
+        	border-radius: 3px;
+        	margin: 1px;
+        	padding: 4px;
+
+        	overflow: auto;
+        }
+        h4{
+        	font-family: arial;
+        	color: white;
+        	font-size: 11pt;
+        	margin: 0px;
+        	margin-left: 20px;
+        	padding-top: 10px;
+        	padding-bottom: 10px;
+        }
+        span{
+        	font-family: arial;
+        }
+        button{
+        	width: 30%;
+        	height: 35px;
+        	margin: 10px;
+        	color: white;
+        	background-color: black;
+        	border: none;
+        	margin-left: 35%;
+        	letter-spacing: 1px;
+        	border-radius: 100px;
+        }
+        input,textarea{
+        	padding: 4px;
+        	width: 180px;
+			float: right;
+        	display: inline;
+        	margin-right: 50px;
+        }
+        .radio{
+        	margin-right: 5px;
+        	margin-left: 40px;
+        }
+        section{
+        	padding-left: 20px;
+        	padding-right: 20px;
+        }
+        .radio{
+        	width: auto;
+        	float: none;
+        }
+        span{
+			font-size: 10pt;
+        }
+        .first{
+        	padding-top: 20px;
+        }

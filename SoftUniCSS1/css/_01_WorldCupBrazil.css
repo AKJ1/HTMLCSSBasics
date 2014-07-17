@@ -1,0 +1,109 @@
+td,th{
+				height: 30px;
+				border: 1px solid black;
+				margin: 0px;
+				padding: 3px;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				-o-text-overflow: ellipsis;
+				white-space: nowrap;
+			}        
+			th{
+				font-size: 18pt;
+			}
+        	tr td:nth-child(1){
+        		width: 140px;
+        		text-align: right;
+        	}
+        	tr td:nth-child(2){
+        		width: 40px;
+        		text-align: center;
+        	}
+
+        	tr td:nth-child(3){
+        		width: 140px;
+        		text-align: left;
+        	}
+
+        	tr td:nth-child(4){
+        		width: 40px;
+        		text-align: center;
+        		text-transform: uppercase;
+        	}
+
+        	tr td:nth-child(5){
+        		width: 110px;
+        		text-align: right;
+        	}
+
+        	tr td:nth-child(6){
+        		width: auto;
+        	}
+
+        	tr td:nth-child(7){
+        		width: 110px;
+        		text-align: left;
+        	}
+
+        	tr td:nth-child(8){
+        		width: 20px;
+        		text-align: left;
+        	}
+        	button{
+        		border-radius: 100px;
+        		height:40px;
+        		width: 40px;
+        		margin: 2px;
+        		color:white;
+        	}
+        	.red{
+        		background-color: red;
+        	}
+        	.green{
+        		background-color: green;
+        	}
+			tbody tr:nth-child(even){
+				background-color: #bababa;
+			}
+			tbody tr:nth-child(odd){
+				background-color: white;
+			}
+
+			body *{
+				font-family: calibri;
+			}
+			body{
+				background-color: green;
+			}
+        	table{
+        		border-radius: 23px;
+        		border: 2px solid black;
+        		padding: 0px;
+        	}
+        	thead{
+        		background-color: yellow;
+        	}
+        	table tr:last-child td:first-child {
+        		border-bottom-left-radius:20px;
+    			moz-border-bottom-left-radius:20px;
+			}
+
+			table tr:last-child td:last-child {
+			    moz-border-bottom-right-radius:20px;
+			    border-bottom-right-radius:20px;
+			}
+			table tr:first-child th:first-child{
+				moz-border-top-left-radius: 20px;
+				border-top-left-radius: 20px;
+			}
+			select{
+				height: 30px;
+				border: none;
+				outline:none;
+				appearance: none;
+				cursor: pointer;
+			}
+			table tr:first-child th:last-child{
+				moz-border-top-right-radius: 20px;
+				border-top-right-radius: 20px;
+			}

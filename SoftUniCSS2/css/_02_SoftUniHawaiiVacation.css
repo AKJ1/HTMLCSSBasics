@@ -1,0 +1,58 @@
+
+			@font-face{
+				font-family: Animated;
+				src: url("images/Animated.ttf");
+			}
+			body{
+				margin: 0px;
+			}
+			.sky{
+				width: auto;
+				display: inline-block;
+				height: auto;
+    			background: radial-gradient( at 110px 90px, #EEe1AA, #ffffff 22%, #6b9fc6 36%, blue 91% ); 
+			}
+			.background{
+				width: auto;
+				height: auto;
+			}
+			p{
+				position:relative;
+				font-family: Animted, serif;
+				height: 0px;
+				margin: 0px;
+				color: gold;
+				bottom:-40px;
+				left: 430px;
+				font-size:36pt;
+			}
+			.hula{
+				position: absolute;
+			}
+
+			
+			.hula:nth-child(2){
+				left: 60px;
+				top: 230px;
+			}
+			.hula:nth-child(3){
+				left: 200px;
+				top: 200px;
+			}
+			.hula:nth-child(4){
+				left: 280px;
+				top: 370px;
+			}
+			
+			.hula:nth-child(5){
+				left: 430px;
+				top: 190px;
+			}
+			.hula:nth-child(6){
+				left: 505px;
+				top: 220px;
+			}
+			.hula:nth-child(7){
+				left: 680px;
+				top: 240px;
+			}

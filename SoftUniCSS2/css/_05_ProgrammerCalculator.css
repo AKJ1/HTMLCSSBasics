@@ -1,0 +1,169 @@
+
+        .radio{
+        padding: 5px;
+        }
+        button{
+        height: 100%;
+        padding: 2px;
+        margin: 0px;
+        width: 40px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        }
+        td{
+        height: 35px;
+        width: auto;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding: 0px;
+        margin: 0 auto;
+        }
+        .button,.tall{
+        background: -webkit-linear-gradient(top, #F5F9FC 0%, #E4EBF4 50%, #D9E4F1 55%, #D7E2EF 100%);
+        background: -o-linear-gradient(top, #F5F9FC 0%, #E4EBF4 50%, #D9E4F1 55%, #D7E2EF 100%);
+        background: linear-gradient(top, #F5F9FC 0%, #E4EBF4 50%, #D9E4F1 55%, #D7E2EF 100%);
+        }
+        .number{
+        background: -webkit-linear-gradient(top, #F7FBFF 0%, #EDF3F8 50%, #E7EDF5 55%, #F7FDFF 100%);
+        background: -o-linear-gradient(top, #F7FBFF 0%, #EDF3F8 50%, #E7EDF5 55%, #F7FDFF 100%);
+        background: linear-gradient(top, #F7FBFF 0%, #EDF3F8 50%, #E7EDF5 55%, #F7FDFF 100%);
+        }
+        .long{
+        width: 80px;
+        font-size: 14pt;
+        }
+        .tall{
+        font-size: 18pt;
+        }
+        .flat{
+        background-color:#D9E4F1;
+        }
+        .big div{
+        height: 48%;
+        margin: 5px;
+   		}
+        h2{
+        text-align: right;
+        }
+        tr td *{
+        border: 1px solid gray;
+        border-radius: 4px;
+        }
+        tr td p{
+        background-color:#d9e4f1;
+        text-align: center;
+        margin: 0px;
+        width: 100%;
+        border: none;
+        border-radius: 0px;
+        }
+        tr td p span{
+        text-align: left;
+        margin-right: 35%;
+        border: none;
+        margin: 2%;
+        }
+        thead tr td {
+        border-radius: 4px;
+
+        padding: 5px;
+        height: auto;
+    	}
+        thead tr{
+        	padding: 0px;
+        }
+        thead tr td h2{
+        border: none;
+    	}
+        .result{
+        	border: 1px solid gray;
+            background: -webkit-linear-gradient(top, #F5F9FC 0%, #E4EBF4 50%, #D9E4F1 55%, #D7E2EF 100%);
+	        background: -o-linear-gradient(top, #F5F9FC 0%, #E4EBF4 50%, #D9E4F1 55%, #D7E2EF 100%);
+	        background: linear-gradient(top, #F5F9FC 0%, #E4EBF4 50%, #D9E4F1 55%, #D7E2EF 100%);
+        }
+        .rightalign{
+        	text-align: right;
+        }
+        #bits{
+        	border: 1px solid gray;
+        	display: flex;
+        }
+        thead tr td span{
+        	margin-left: 0%;
+
+        	margin: 1.9%;
+        	margin-top: 0px;
+        	padding-left: 0px;
+        	border: none;
+        }
+        #calc{
+        	background-color: #d9e4f1;
+
+	        padding: 5px;
+        }
+        .second{
+        	margin-left: 44%;
+        }
+        .third{
+        	text-align: right;
+        	margin-left: 33%;
+        }
+        .menu ul{
+
+
+        	background-color: #F5F6F7;
+        	margin: 0px;
+        	padding: 0px;
+        }
+        .menu ul li{
+        	display: inline;
+        	list-style: none;
+        	margin: 0px;
+        	padding: 5px;
+        }
+        .frame{
+        	width: 440px;
+        	background-color: #DBDBDB;
+        	padding: 8px;
+        	padding-top: 30px;
+        }
+        .redX{
+        	position: absolute;
+        	top: 9px;
+        	left: 420px;
+        	background-color: darkred;
+			color: white;
+        	padding: 3px;
+        	padding-left: 15px;
+        	padding-right: 15px;
+        }
+        .redX:hover{
+        	background-color: red;
+        }
+
+        .whiteO{
+        	position: absolute;
+        	top: 9px;
+        	left: 380px;
+        	background-color: white;
+			color: black;
+        	padding: 3px;
+        	padding-left: 15px;
+        	padding-right: 15px;
+        }
+        .whiteO:hover{
+        	background-color: skyblue;
+        }
+        .whiteMin{
+        	position: absolute;
+        	top: 9px;
+        	left: 345px;
+        	background-color: white;
+			color: black;
+        	padding: 3px;
+        	padding-left: 15px;
+        	padding-right: 15px;
+        }
+        .whiteMin:hover{
+        	background-color: skyblue;
+        }

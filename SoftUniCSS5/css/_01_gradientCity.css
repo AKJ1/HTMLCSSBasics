@@ -1,0 +1,140 @@
+.purple, .blue, .green, .red, .yellow, .orange {
+  border-radius: 10px;
+  width: 90px;
+  height: 90px;
+  margin: 5px;
+  display: inline-block; }
+
+body {
+  background: linear-gradient(180deg, gray 0%, white 100%) no-repeat; }
+
+.linear article:nth-child(2) .innerContainer div:nth-child(1) {
+  background: linear-gradient(180deg, purple, rgba(128, 0, 128, 0)); }
+
+.linear article:nth-child(3) .innerContainer div:nth-child(1) {
+  background: linear-gradient(90deg, purple, rgba(128, 0, 128, 0)); }
+
+.linear article:nth-child(4) .innerContainer div:nth-child(1) {
+  background: linear-gradient(-235deg, purple, rgba(128, 0, 128, 0)); }
+
+.radial article .innerContainer div:nth-child(1) {
+  background: radial-gradient(purple, rgba(128, 0, 128, 0)); }
+
+.linear article:nth-child(2) .innerContainer div:nth-child(2) {
+  background: linear-gradient(180deg, blue, rgba(0, 0, 255, 0)); }
+
+.linear article:nth-child(3) .innerContainer div:nth-child(2) {
+  background: linear-gradient(90deg, blue, rgba(0, 0, 255, 0)); }
+
+.linear article:nth-child(4) .innerContainer div:nth-child(2) {
+  background: linear-gradient(-235deg, blue, rgba(0, 0, 255, 0)); }
+
+.radial article .innerContainer div:nth-child(2) {
+  background: radial-gradient(blue, rgba(0, 0, 255, 0)); }
+
+.linear article:nth-child(2) .innerContainer div:nth-child(3) {
+  background: linear-gradient(180deg, green, rgba(0, 128, 0, 0)); }
+
+.linear article:nth-child(3) .innerContainer div:nth-child(3) {
+  background: linear-gradient(90deg, green, rgba(0, 128, 0, 0)); }
+
+.linear article:nth-child(4) .innerContainer div:nth-child(3) {
+  background: linear-gradient(-235deg, green, rgba(0, 128, 0, 0)); }
+
+.radial article .innerContainer div:nth-child(3) {
+  background: radial-gradient(green, rgba(0, 128, 0, 0)); }
+
+.linear article:nth-child(2) .innerContainer div:nth-child(4) {
+  background: linear-gradient(180deg, yellow, rgba(255, 255, 0, 0)); }
+
+.linear article:nth-child(3) .innerContainer div:nth-child(4) {
+  background: linear-gradient(90deg, yellow, rgba(255, 255, 0, 0)); }
+
+.linear article:nth-child(4) .innerContainer div:nth-child(4) {
+  background: linear-gradient(-235deg, yellow, rgba(255, 255, 0, 0)); }
+
+.radial article .innerContainer div:nth-child(4) {
+  background: radial-gradient(yellow, rgba(255, 255, 0, 0)); }
+
+.linear article:nth-child(2) .innerContainer div:nth-child(5) {
+  background: linear-gradient(180deg, orange, rgba(255, 165, 0, 0)); }
+
+.linear article:nth-child(3) .innerContainer div:nth-child(5) {
+  background: linear-gradient(90deg, orange, rgba(255, 165, 0, 0)); }
+
+.linear article:nth-child(4) .innerContainer div:nth-child(5) {
+  background: linear-gradient(-235deg, orange, rgba(255, 165, 0, 0)); }
+
+.radial article .innerContainer div:nth-child(5) {
+  background: radial-gradient(orange, rgba(255, 165, 0, 0)); }
+
+.linear article:nth-child(2) .innerContainer div:nth-child(6) {
+  background: linear-gradient(180deg, red, rgba(255, 0, 0, 0)); }
+
+.linear article:nth-child(3) .innerContainer div:nth-child(6) {
+  background: linear-gradient(90deg, red, rgba(255, 0, 0, 0)); }
+
+.linear article:nth-child(4) .innerContainer div:nth-child(6) {
+  background: linear-gradient(-235deg, red, rgba(255, 0, 0, 0)); }
+
+.radial article .innerContainer div:nth-child(6) {
+  background: radial-gradient(red, rgba(255, 0, 0, 0)); }
+
+#wrapper {
+  border: 2px solid gray;
+  width: 680px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white; }
+
+header {
+  margin: 10px;
+  padding: 5px;
+  border: 3px solid gray; }
+
+#wrapper * {
+  text-align: center;
+  font-family: Helvetica;
+  color: grey; }
+  #wrapper * h1 {
+    font-size: 100px; }
+  #wrapper * h1, #wrapper * h3 {
+    text-decoration: underline;
+    font-size: 14px;
+    margin: 0px; }
+  #wrapper * h2 {
+    margin: 0px;
+    font-size: 12px; }
+
+header nav ul {
+  padding: 0px; }
+  header nav ul li {
+    border: 2px solid gray;
+    display: inline;
+    list-style: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px; }
+    header nav ul li a {
+      text-decoration: none; }
+
+section, footer {
+  margin: 5px;
+  padding: 5px;
+  border: 3px solid gray; }
+  section article, footer article {
+    border: 1px solid gray;
+    margin: 5px; }
+  section header, footer header {
+    border: 0px; }
+
+footer ul {
+  padding: 0px; }
+  footer ul li {
+    list-style: none;
+    font-size: 12px; }
+    footer ul li a {
+      text-decoration: none;
+      color: grey; }

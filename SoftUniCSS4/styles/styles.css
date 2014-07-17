@@ -1,0 +1,121 @@
+body{
+
+	background-color: #6698FF;
+
+}
+footer{
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}	
+#wrapper{
+	background-color: #6698FF;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: calibri;
+}
+ul{
+	padding: 5px;
+}
+ul li{
+	list-style: none;
+}
+article, nav ul li, aside, footer{
+	background-color: #E0EAFE;
+	border: 1px solid black;
+	display: inline-block;
+}
+article{
+	width: 73%;
+	float: left;
+}
+article, aside{
+
+	box-sizing: border-box;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 10px;
+}
+.news{
+	width: 25%; 
+	margin-left: 2%;
+}
+nav ul li {
+	display: inline;
+	position: relative;
+	border: 1px solid black;
+	padding: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 5px;
+	font-size: 16pt;	
+	bottom: 12px;
+}
+nav ul{
+	padding: 0px;
+	vertical-align: center;
+	border: 1px solid black;
+	padding: 0px;
+	margin-bottom: 30px;
+	height: 0px
+}
+nav{
+	text-align: right;
+}
+ul li a {
+	text-decoration: none;
+}
+header h1{
+	margin-top: 0px;
+}
+header h1 a{
+	color: white;
+	text-decoration: none;
+}	
+
+@media screen and (max-width: 780px){
+
+	#wrapper{
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	article, aside{
+		box-sizing: border-box;
+		padding: 2px;
+	}
+}
+@media screen and (max-width: 640px){
+	#wrapper{
+		widows: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	article{
+		width: 100%;
+	}
+	.news{
+		width: 100%;
+		margin: 0px;
+	}
+	aside ul{
+		width: 100%;
+	}
+	aside ul li{
+		display: inline-block;
+		width: 24%;
+		padding: 1%;
+		box-sizing: border-box;
+	}
+	nav ul{
+		border: none;
+		position: initial;
+		height: auto;
+	}
+	nav ul li{
+		position: initial;
+		font-size: 12pt;
+		display: block;
+	}
+}

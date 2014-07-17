@@ -1,0 +1,102 @@
+
+        @font-face{
+        	font-family: Kaffe;
+        	src: url('../fonts/Kaffe.ttf');
+        }
+		.clearfix:after {
+			content:"";
+			display:table;
+			clear:both;
+		}
+
+		textarea, input{
+			width: 100%;
+			box-sizing: border-box;
+  			-moz-box-sizing: border-box;
+			padding: 10px;
+			border-radius: 3px;
+			margin-bottom: 5px;
+			border: 1px solid #E6DFD4;
+			font-family: Helvetica, Arial, serif;
+			background: inherit;
+		}
+		textarea:focus,input:focus{
+			background: #fff;
+			opacity: 0.25;
+		} 
+
+		button{
+
+			box-sizing: border-box;
+  			-moz-box-sizing: border-box;
+  			width: 40%;
+  			display: block;
+  			border: none;
+  			color: #7C7873;
+  			border-radius: 3px;
+  			background: transparent;
+  			margin-left: auto;
+  			margin-right: auto;
+  			padding: 2px;
+			font-family: inherit;
+			font-size: 1.5em;
+			text-shadow: 2px 1px 2px #ffffff;
+			margin-bottom: 100px;
+		}
+		button:hover{
+			background-color: #BBC9CF;
+			color: #435C70;
+		}
+		body{
+			background-image: url(../images/3/form-background.png) ;
+			font-family: Kaffe, Arial, sans-serif;
+			text-shadow: 2px 1px 2px #EDE8D9;
+			color: black;
+		}
+		h1{
+			color: #7C7873;
+			text-align: center;
+			font-size: 46px;
+			margin: 15px;
+		}
+		h2{
+			margin: 0px;
+			font-family: inherit;
+			color: #7C7888;
+		}
+		p{
+			margin: 0px;
+			text-transform: uppercase;
+
+			text-shadow: 2px 1px 2px #EDE8D9;
+			color: #B3ABB5;
+		}
+
+		body div{
+			width: 400px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 20px;
+			border-radius: 3px;
+			background-image: url(../images/3/letter-background.png);
+		}
+
+		.foreground{
+			padding: 0px;
+			position: relative;
+			height: 400px;
+			top: -350px;
+			background: url('../images/3/envelope-top.png') no-repeat;
+			z-index: -1;
+			width: 527px;
+		}
+		.background{
+			background: url('../images/3/envelope-bottom.png') no-repeat;
+			position: relative;
+ 		    top: -565px;
+ 		    height: 400px;
+ 		    -webkit-user-select: none;
+ 		    --moz-user-select: none;
+			width: 485px;
+			pointer-events: none;
+		}

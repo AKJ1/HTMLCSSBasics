@@ -1,0 +1,92 @@
+.main{
+        		
+				border-top: 7px yellow dotted;
+				display: inline-block;
+				margin: 0 auto;
+				border-left: 5px red dashed;
+				border-right: 10px solid green;
+				border-bottom: 7px double blue ;
+				width: 480px;
+
+        		font-weight: lighter;
+        		font-family: calibri;
+        		text-shadow: 5px 10px 6px #CCCCCC;
+
+        	}
+        	h1{
+        		text-transform: uppercase;
+        		text-align: center;
+        		margin-left: 35px;
+        		margin-right: 35px;
+        	}
+        	.inner{
+        		border-radius: 1000px;
+        		
+        		border-width: 5px;
+        		border-image: radial-gradient(green 25%, gold 50%, red, blue) 40% repeat;
+        		border-radius: 1000px;
+        		text-align: center;
+        		padding: 10px;
+        		padding-left: 50px;
+        		padding-right: 50px;
+        		margin-left: 4%;
+        		margin-right: 4%;
+        		margin-bottom: 5%;
+        	}
+        	h2{
+				font-size: 18px;
+        	}
+        	input{
+        		background-color: orange;
+        		color: black;
+        		border-bottom: 2px chocolate solid;
+        		border-right: 2px chocolate solid;
+        		border-left: 2px gold solid;
+        		border-top: 2px gold solid;
+        		text-align: center;
+        	}
+        	::-webkit-input-placeholder { /* WebKit browsers */
+			    color:    black;
+			}
+			:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+			    color:    black;
+			    opacity:  1;
+			}
+			::-moz-placeholder { /* Mozilla Firefox 19+ */
+			    color:    black;
+			    opacity:  1;
+			}
+			:-ms-input-placeholder { /* Internet Explorer 10+ */
+			    color:    black;
+			}
+			.baloon{
+				background-color: rgba(105, 105, 105, 0.7);
+				border: 4px dashed white;
+				padding: 4px;
+				margin: 5px;
+				font-size: 16pt;
+				font-family: tahoma;
+				font-weight: lighter;
+				border-radius: 1000px;
+				text-align: center;
+				color: #ffffff;
+				box-shadow: 0px 0px 0px 5px rgba(105, 105, 105, 0.7);
+				position: absolute;
+			}
+			#first{
+				top:150px;
+				left: 400px;
+			}
+			#second{
+				padding: 10px;
+				top: 110px;
+				left: 420px	;
+			}
+			#text{
+				width: 60px;
+				padding: 10px;
+				padding-left: 30px;
+				padding-right: 30px;
+				top: 40px;
+				left: 460px;
+			}

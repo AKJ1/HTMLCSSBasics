@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+    <head>
+      	<meta charset="utf-8">
+        <title>SoftUniBeforeExam</title>
+        <style>
+        *{
+        	border: 2px solid black;
+        }
+        	.eye, .eyeball, .nose, #face, .mouth{
+        		border-radius: 1000px;
+        	}
+
+        	html, body{
+        		border: none;
+        	}
+        	#face{
+        		background-color: yellow;
+        		position: relative;
+        		height: 250px;
+        		width: 250px;
+        	}
+        	.nose{
+        		background-color: red;
+        		position: absolute;
+        		left: 100px;
+        		top: 100px;
+        		width: 50px;
+        		height: 50px;
+        	}
+        	.eye{
+        		background-color: white;
+        		width: 55px;
+        		height: 55px;
+        		position: absolute;
+        	}
+        	#left{
+        		top: 40px;
+        		left: 40px;
+        	}
+        	#right{
+        		top: 40px;
+        		left: 150px;
+        	}
+        	.eyeball{
+        		background-color: black;
+        		width: 15px;
+        		height: 15px;
+        	}
+        	#leftEyeball{
+        		margin-top: 30px;
+        		margin-left: 30px;
+        	}
+        	.mouth{
+        		position: absolute;
+        		top: 160px;
+        		left: 60px;
+        		background-color: white;
+        		height: 55px;
+        		width: 130px;
+        	}
+        	.jaw{
+        		position: absolute;
+        		left:36px;
+        		border: none;
+        	}
+        	.tooth{
+        		border-radius: 5px;
+        		border-top-right-radius: 0px;
+        		border-top-left-radius: 0px;
+	    		height: 25px;
+        		width: 25px;
+        		display: inline-block;
+        		margin: -2px;
+        	}
+        </style>
+    </head>
+    <body>
+        <div id="face">
+        	<div class="eye" id="left">
+        		<div class="eyeball" id="leftEyeball"></div>
+        	</div>
+        	<div class="eye" id="right">
+        		
+        		<div class="eyeball" ></div>
+        	</div>
+        	<div class="nose"></div>
+        	<div class="mouth">
+        		<div class="jaw">
+        		<div class="tooth"></div>
+        		<div class="tooth"></div>
+        		</div>
+        	</div>
+        </div>
+    </body>
+</html>

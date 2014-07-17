@@ -1,0 +1,125 @@
+
+@mixin linear-gradient($angle, $color) {
+    background: linear-gradient($angle, $color, rgba($color, 0));
+}
+
+@mixin greyborder($width) {
+    border: $width solid gray;
+}
+@mixin radial-gradient($color){
+	background: radial-gradient($color, rgba($color, 0));
+}
+.purple, .blue, .green, .red, .yellow, .orange {
+    border-radius: 10px;
+    width: 90px;
+    height:  90px;
+    margin: 5px;
+    display: inline-block;
+}
+
+body {
+    background: linear-gradient(180deg, gray 0%, white 100%) no-repeat;
+}
+$color1: purple;
+$color2: blue;
+$color3: green;
+$color4: yellow;
+$color5: orange;
+$color6: red;
+
+$colors: $color1, $color2, $color3, $color4, $color5, $color6;
+@for $j from 1 through 6 {
+	$deg: 180deg;
+	.linear article:nth-child(2) .innerContainer div:nth-child(#{$j}){
+		@include linear-gradient($deg,nth($colors, $j))
+	}		
+	$deg: 90deg;
+	.linear article:nth-child(3) .innerContainer div:nth-child(#{$j}){
+		@include linear-gradient($deg,nth($colors, $j))
+	}	
+	$deg: -235deg;	
+	.linear article:nth-child(4) .innerContainer div:nth-child(#{$j}){
+		@include linear-gradient($deg,nth($colors, $j))
+	}		
+
+	.radial article .innerContainer div:nth-child(#{$j}){
+		@include radial-gradient (nth($colors, $j))
+	}
+}
+
+
+#wrapper {
+    @include greyborder(2px);
+    width: 680px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    
+}
+header{
+		margin: 10px;
+		padding: 5px;
+		@include greyborder(3px);
+}
+#wrapper * {
+    text-align: center;
+    font-family: Helvetica;
+    color: grey;
+    h1{
+    	font-size: 100px;
+    }
+    h1, h3{
+    	text-decoration: underline;
+    	font-size: 14px;
+    	margin: 0px;
+    }
+    h2{
+    	margin: 0px;
+    	font-size: 12px;
+    }
+}
+
+header nav ul {
+
+	padding: 0px;
+    li {
+        @include greyborder(2px);
+        display: inline;
+        list-style: none;
+        padding: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        a {
+            text-decoration: none;
+        }
+        a:hover{
+
+        }
+    }
+}
+section,footer{
+	margin: 5px;
+	padding: 5px;
+	@include greyborder(3px);
+	article{
+		@include greyborder(1px);
+		margin: 5px;
+	}
+
+	header{
+		border: 0px;
+	}
+}
+footer ul {
+	padding: 0px;
+	li{
+		list-style: none;
+		font-size: 12px;
+		a{
+			text-decoration: none;
+			color: grey;
+		}
+	}
+}

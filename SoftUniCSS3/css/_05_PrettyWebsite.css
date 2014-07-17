@@ -1,0 +1,203 @@
+
+
+		.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+		body *{
+			font-family: arial;
+		}
+		#container{
+			background-color: white;
+			width: 960px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		#wrapper{
+			width: 100%;
+			background-color: #121212;
+		}
+		h5{
+			font-size: 1em;
+		}
+		section,aside{
+			box-sizing: border-box;
+			display: inline-block;
+			border-radius: 15px;
+			border: 1px solid #dadada;
+			margin: 10px;
+		}
+		#news{
+			background-color: #eaeaea;
+		}
+		#news h5{
+			margin-bottom: 0px;
+		}
+		section{
+			width: 70%;
+			padding: 15px;
+			float: left;
+		}
+		aside{
+			width: 25%;
+			padding: 15px;
+			float: right;
+		}
+		body{
+			margin: 0px;
+
+			background-color: #121212;
+		}
+		header img{
+			position: relative;
+			width: 100%;
+			margin-bottom:-5px;
+		}
+		a{
+			color: #90BC06;
+		}
+		h1{
+			color: white;
+			margin: 0px;
+			position:relative;
+			left:530px;
+			top: -75px;
+			font-size: 2em;
+			height: 0px;
+		}
+		h2, h3{
+			color: #90BC06;
+		}
+		h2{
+			text-transform: uppercase;
+			margin-top: 0px;
+		}
+		span{
+			font-weight: bold;
+		}
+		nav{
+			background-color: #DFDFDF;
+			top: -2px;
+		}
+		nav ul{
+			padding: 0px;
+			margin-top: 0px;
+			padding-top: 13px;
+			padding-bottom: 13px;
+		}
+		nav ul li:hover{
+
+			background-color: gray;
+			color: white;
+
+		}
+		nav ul li {
+			display: inline;
+			margin: 0 0 0 0;	
+			padding: 13px 45px;
+			border-right: 1px solid #FAFAFA;
+		}
+		header{
+			background-color: #efefef;
+		}
+		article img{
+			float: left;
+			margin-right: 20px;
+		}
+		.bottom{
+			display: inline-block;
+			background: linear-gradient(#A4D843 0%,#84C019 100%); /* W3C */
+			width: 100%;
+			text-align: center;
+			padding-bottom: 25px;
+		}
+		.bottom a{
+			color: black;
+		}
+		.middle{
+			display: inline-block;
+		}
+		aside p{
+			margin: 0px;
+		}
+		@media screen and(max-width: 960px){
+				#container{
+			background-color: white;
+			width: 780px;
+		}
+		aside{
+			width: 20%;
+		}
+		h1{
+			width: 0px;
+			white-space: nowrap;
+			overflow: visible;
+			top: -65px;
+			left:410px;
+			font-size: 1.75em;
+		}
+		aside h2{
+			text-align: center;
+			padding: 0px;
+			display: block;
+		}
+		aside h5{
+			margin: 0px;
+		}
+		aside,section{
+			margin-top: 10px !important; 
+			margin-bottom: 10px !important;
+		}
+		aside {
+			display: inline-block;
+			width: 100%;
+			margin: 0px;
+			text-align: center;
+		}
+		aside div{
+			width: 100%
+		}
+		aside div div{
+			width: 32%;
+			display: inline-block;
+		}
+		section{
+			width: 100%;
+			box-sizing: border-box;
+			margin: 0px;
+		}
+	}
+		@media screen and(max-width: 640px){
+		#container{
+			width: 100%;
+		}
+		h1{
+			font-size: 1em;
+			top: -50px;
+			left: 300px;
+		}
+		ul{
+			display: block;
+		}
+		nav ul li{
+			display: block;
+			text-align: center;
+		}
+	}

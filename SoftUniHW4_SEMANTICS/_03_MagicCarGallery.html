@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Magic Car Gallery</title>
+        <script src="js/_03_MagicCarGallery.js"></script>
+        <style>
+        div{
+        	float:left;
+        }
+        h2{
+        	text-align: center;
+        }
+        iframe{
+        	width: 400px;
+        	height: 300px;
+        }
+			.main{
+				display: inline;
+				background-color: #000000;
+				border: 10px;
+				border-radius: 10px;
+				padding: 10px;
+			}
+			header *{
+				color: #EECE0F;
+				font-family: calibri;
+				font-size: 36px;
+				margin: 10px;
+				padding: 0px;
+			}
+			h2{
+				margin: 0px;
+				margin-bottom: 10px;
+			}
+			section{
+				color: #DDDDDD;
+				height:100%;
+				font-size: 16pt;
+				float: left;
+				font-family: calibri italic;
+			}
+			ul{
+				padding: 10px;
+				margin: 0px;
+				list-style: none;
+			}
+			#cars{
+				background-color: black;
+				border: 2px solid orange;
+			}
+
+			
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <header>
+                <h2>Magic Car Gallery</h2>
+            </header>
+            <section>
+                <div>
+                    <iframe id="cars" src="images/1.jpg" frameborder="0"></iframe>
+                </div>
+                <div>
+                    <ul>
+                        <li onclick="thing(this.value)" value="1">Ford Mustang</li>
+                        <li onclick="thing(this.value)" value="2">BMW M5</li>
+                        <li onclick="thing(this.value)" value="3">Porche Panamera</li>
+                        <li onclick="thing(this.value)" value="4">Audi RS5</li>
+                        <li onclick="thing(this.value)" value="5">Mercedes-Benz C63 AMG</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
